@@ -1,6 +1,6 @@
 {
   "name": "nuxt-prisma-devtools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds Prisma Studio to Nuxt Devtools",
   "repository": "gsxdsm/nuxt-prisma-devtools",
   "license": "MIT",

@@ -15,6 +15,10 @@ export default defineNuxtModule<ModuleOptions>({
     port: 5555,
   },
   setup(_options, _nuxt) {
+    const npm_lifecycle_event = process.env?.npm_lifecycle_event
+    if (npm_lifecycle_event !== 'dev') {
+      return
+    }
     _nuxt.hook('devtools:customTabs', (tabs) => {
       tabs.push({
         name: 'Prisma',

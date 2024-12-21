@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "nuxt": "^3.14.1592",
-    "prisma": "^6.1.0"
+    "prisma": "^6.1.0",
+    "@prisma/client": "^6.1.0"
   }
 }

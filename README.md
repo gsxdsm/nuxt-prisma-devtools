@@ -14,7 +14,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Adds Prisma Studio to Nuxt Devtools - if you aren't using nuxt-prisma. Remember to manually start prisma studio!
+Adds Prisma Studio to Nuxt Devtools - a great way to integrate Prisma studio in case you are manually setting up Prisma in nuxt (rather than using nuxt-prisma - see https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/prisma-nuxt-module#option-b-libprismats)!
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
